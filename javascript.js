@@ -10,10 +10,12 @@ fetch('https://api.mercadopago.com/checkout/preferences', {
     body: JSON.stringify({
         items: [{
             title: 'assinando EpicPlay',
+            currency_id: 'BRL',
+            category_id: 'app',
             quantity: 1,
             unit_price: 01
         }],
-        
+        auto_return: 'approved',
         back_urls: {
             success: 'http://seusite.com/success',
             pending: 'http://seusite.com/pending',
