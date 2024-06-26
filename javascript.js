@@ -15,7 +15,7 @@ fetch('https://api.mercadopago.com/checkout/preferences', {
             quantity: 1,
             unit_price: 01
         }],
-        auto_return: 'approved',
+        auto_return: 'success',
         back_urls: {
             success: 'http://seusite.com/success',
             pending: 'http://seusite.com/pending',
