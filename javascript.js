@@ -8,6 +8,24 @@ fetch('https://api.mercadopago.com/checkout/preferences', {
         'Authorization': `Bearer ${ACCESS_TOKEN}`
     },
     body: JSON.stringify({
+
+payment_methods: {
+          excluded_payment_methods: [
+                    {
+                              id: "bolbradesco"
+                    },
+                    {
+                              id: "pec"
+                    }
+          ],
+          excluded_payment_types: [
+                    {
+                              id: "debit_card"
+                    }
+          ],
+          installments: 12
+},
+        
         items: [{
             title: 'assinando EpicPlay',
             currency_id: 'BRL',
