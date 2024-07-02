@@ -39,7 +39,7 @@ payment_methods: {
             quantity: 1,
             unit_price: 01
         }],
-        auto_return: 'pending',
+        auto_return: 'success',
         back_urls: {
             success: 'http://seusite.com/success',
             pending: 'http://seusite.com/pending',
