@@ -11,8 +11,7 @@ fetch('https://api.mercadopago.com/checkout/preferences', {
 
 payment_methods: {
           excluded_payment_methods: [
-
-              {
+                    {
                               id: "pix"
                     },
                     {
@@ -42,7 +41,7 @@ payment_methods: {
             quantity: 1,
             unit_price: 01
         }],
-        auto_return: 'success',
+        auto_return: 'approved',
         back_urls: {
             success: 'http://seusite.com/success',
             pending: 'http://seusite.com/pending',
