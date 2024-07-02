@@ -11,9 +11,7 @@ fetch('https://api.mercadopago.com/checkout/preferences', {
 
 payment_methods: {
           excluded_payment_methods: [
-                    {
-                              id: "pix"
-                    },
+                
                     {
                               id: "bolbradesco"
                     },
