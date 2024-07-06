@@ -61,3 +61,5 @@ const preferenceUrl = data.init_point;
 .catch(error => {
     console.error('Erro ao gerar preferência:', error);
 });
+
+requestOptions: { idempotencyKey: '<SOME_UNIQUE_VALUE>' }
