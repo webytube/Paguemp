@@ -1,5 +1,5 @@
 
-const ACCESS_TOKEN = 'APP_USR-7683778213528282-061306-ca5abb469f91bd4e26734d1a1f3f0dd9-1728455248';
+const ACCESS_TOKEN = 'APP_USR-338217440534890-061308-331c751b8de87a80189a2b23e03bc442-1728455248';
 
 fetch('https://api.mercadopago.com/checkout/preferences', {
     method: 'POST',
